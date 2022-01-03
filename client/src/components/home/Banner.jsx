@@ -30,7 +30,7 @@ const Banner=()=>{
     return(
       <Box className={classes.image}>
       <Typography>BLOG</Typography>  
-      <Typography>Devlop By Puneet Dabral</Typography> 
+      <Typography>Daily Blogs</Typography> 
 
       </Box>
     )
