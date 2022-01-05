@@ -8,7 +8,7 @@ import router from "./routes/route.js";
 
 const app =express();
 
-app.use(cors());  //for front server to local server 
+app.use(cors());  //jooin two diffrent and send data to another 
 app.use(bodyParser.json({extended : true}));  
 app.use(bodyParser.urlencoded({extended:true}));  //to give the number to url 
 app.use('/',router);  //if our route is empty so match it with our api 
